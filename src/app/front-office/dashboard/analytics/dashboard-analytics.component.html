@@ -1,0 +1,20 @@
+<div class="space-y-6 mt-4 mb-16">
+  <div class="flex items-center gap-4">
+    <h2 class="text-2xl font-bold text-hms-text-primary dark:text-dark-text-primary">Analytics Overview</h2>
+    <div class="h-px flex-1 bg-hms-border dark:bg-dark-border"></div>
+  </div>
+
+  <div class="grid grid-cols-1 xl:grid-cols-2 gap-5">
+    <!-- Graph 1: Occupancy Trend -->
+    <app-occupancy-trend [data]="occupancyData"></app-occupancy-trend>
+
+    <!-- Graph 2: Revenue Breakdown -->
+    <app-revenue-breakdown [data]="revenueData"></app-revenue-breakdown>
+
+    <!-- Graph 3: Booking Sources -->
+    <app-booking-source [data]="bookingSourceData"></app-booking-source>
+
+    <!-- Graph 4: Check-in Activity -->
+    <app-checkin-activity [data]="checkinData"></app-checkin-activity>
+  </div>
+</div>
