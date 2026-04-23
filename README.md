@@ -18,3 +18,7 @@ View your app in AI Studio: https://ai.studio/apps/aa628442-63e9-4615-8d79-6e272
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## HMS Backend Design
+
+- Phase 1 backend blueprint (core foundation): `docs/hms-phase1-backend-blueprint.md`
